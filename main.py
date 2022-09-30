@@ -2,9 +2,12 @@ from person import Person
 from datetime import date
 
 print("Today:", date.today())
-person_1 = Person('Anthony Bao Quoc Phan', '04101994')
 
-# Thieu chi so can bang, Thieu chi so nhan cach
+
+person_name = input('Enter full name:')
+person_dob = input('Enter date of birth (mmddyyyy): ')
+person_1 = Person(person_name, person_dob)
+
 name = person_1.name
 print('Ho Ten', person_1.name)
 print('Ngay sinh:', person_1.dob)
