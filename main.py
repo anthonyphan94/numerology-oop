@@ -9,7 +9,7 @@ person_dob = input('Enter date of birth (mmddyyyy): ')
 person_1 = Person(person_name, person_dob)
 
 name = person_1.name
-print('Ho Ten', person_1.name)
+print('Ho Ten:', person_1.name)
 print('Ngay sinh:', person_1.dob)
 print('Chi so duong doi:', person_1.tinh_chi_so_duong_doi())
 print('Chi so su menh:', person_1.tinh_chi_so_su_menh())
